@@ -29,6 +29,10 @@ src/**/*~
 !lib/
 !lib/**
 
+# Filesystem assets (SPIFFS / LittleFS)
+!data/
+!data/**
+
 # Always ignore PlatformIO build artifacts even if present
 .pio/
 
