@@ -1,0 +1,48 @@
+################################################################################
+# Minimal, build-only tracking for PlatformIO project
+#
+# Keep ONLY files required to build firmware. Everything else is ignored.
+# If a file/dir is not explicitly allowlisted below, it is excluded.
+################################################################################
+
+# Ignore everything by default
+*
+
+# Allow this .gitignore itself
+!.gitignore
+
+# PlatformIO config and board partition table
+!platformio.ini
+!partitions_4mb.csv
+
+# Source code (C/C++ and headers)
+!src/
+!src/**
+
+# Exclude backups and scratch files inside src
+src/**/*.bak
+src/**/*.broken
+src/**/*.tmp
+src/**/*~
+
+# Custom vendored libraries needed for build
+!lib/
+!lib/**
+
+# Always ignore PlatformIO build artifacts even if present
+.pio/
+
+# macOS and editor junk (belt and suspenders; already covered by *)
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+__pycache__/
+*.log
+*.swp
+*.tmp
+*~
+
+# Private/local config examples
+src/config/network_config_private.h
+credentials.h

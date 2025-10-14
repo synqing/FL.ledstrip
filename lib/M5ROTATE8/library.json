@@ -1,0 +1,9 @@
+{
+  "name": "M5ROTATE8",
+  "version": "0.4.1",
+  "description": "Driver for M5 8-encoder module",
+  "keywords": "M5Stack, encoder",
+  "frameworks": "arduino",
+  "platforms": "espressif32",
+  "headers": "m5rotate8.h"
+}

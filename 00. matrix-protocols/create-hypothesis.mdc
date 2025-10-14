@@ -1,0 +1,289 @@
+---
+description: Create a research hypothesis for MATRIX innovation with surgical precision
+globs:
+  - "*.md"
+alwaysApply: false
+---
+
+# Create MATRIX Research Hypothesis
+
+```
+███╗   ███╗ █████╗ ████████╗██████╗ ██╗██╗  ██╗    ██████╗  ██████╗ ██████╗ 
+████╗ ████║██╔══██╗╚══██╔══╝██╔══██╗██║╚██╗██╔╝    ██╔══██╗██╔════╝██╔══██╗
+██╔████╔██║███████║   ██║   ██████╔╝██║ ╚███╔╝     ██████╔╝███████╗██║  ██║
+██║╚██╔╝██║██╔══██║   ██║   ██╔══██╗██║ ██╔██╗     ██╔══██╗╚════██║██║  ██║
+██║ ╚═╝ ██║██║  ██║   ██║   ██║  ██║██║██╔╝ ██╗    ██║  ██║███████║██████╔╝
+╚═╝     ╚═╝╚═╝  ╚═╝   ╚═╝   ╚═╝  ╚═╝╚═╝╚═╝  ╚═╝    ╚═╝  ╚═╝╚══════╝╚═════╝ 
+```
+
+## 🎯 Protocol Overview
+This protocol generates **actionable, measurable** research hypotheses for MATRIX (9x9 LED grid) innovations, incorporating battle-tested optimizations from strips evolution while leveraging unique 2D capabilities.
+
+## 📋 Hypothesis Document Structure
+
+### Header Metadata
+```yaml
+---
+title: "[Innovation Title]"
+status: "🟢 PLANNED | 🟡 IN_PROGRESS | ✅ VALIDATED | ❌ FAILED"
+priority: "🔴 CRITICAL | 🟡 HIGH | 🟢 ENHANCEMENT"
+effort: "[X] DAYS"
+author: "@your-handle"
+reviewers: ["@reviewer1", "@reviewer2"]
+tags: ["category", "technique", "impact"]
+created: "YYYY-MM-DD"
+updated: "YYYY-MM-DD"
+---
+```
+
+### 1. Executive Summary Box
+```
+┌─────────────────────────────────────────────────────────────────┐
+│                     INNOVATION SUMMARY                           │
+├─────────────────────────────────────────────────────────────────┤
+│ Title:     [Concise Innovation Name]                           │
+│ Category:  [2D Physics|Transitions|Performance|Visual|Cross]    │
+│ Impact:    [Game-changing|High|Medium|Low]                     │
+│ Risk:      [🔴 High|🟡 Medium|🟢 Low]                          │
+│ Timeline:  [X days development + Y days validation]            │
+└─────────────────────────────────────────────────────────────────┘
+```
+
+### 2. Background & Motivation
+```markdown
+## 🧬 Innovation DNA
+
+### Matrix Heritage
+- **Source**: `src/main.cpp:XXX-YYY` (effectName)
+- **Original Performance**: XX FPS, Y.YKB memory
+- **Limitation**: [What held it back]
+
+### Strips Innovation to Harvest
+- **Source**: `src/effects/path/File.h:XXX-YYY`
+- **Key Learning**: [Specific technique/optimization]
+- **Performance Gain**: [Quantified improvement]
+
+### Unique 2D Opportunity
+> "What can ONLY be done on a 9x9 grid that 1D strips can't achieve?"
+```
+
+### 3. Hypothesis Statement
+```markdown
+## 🔬 Scientific Hypothesis
+
+> **IF** we apply [SPECIFIC STRIPS TECHNIQUE] to [MATRIX 2D CAPABILITY]  
+> **THEN** we can achieve [MEASURABLE OUTCOME]  
+> **RESULTING IN** [QUANTIFIED IMPROVEMENT] over baseline
+```
+
+### 4. Success Criteria Dashboard
+```markdown
+## 📊 Success Metrics
+
+┌────────────────────────────────────────────────┐
+│           QUANTITATIVE TARGETS                  │
+├────────────────────────────────────────────────┤
+│ ⬜ FPS:        ≥120 (currently: XX)           │
+│ ⬜ CPU Usage:  <15% (currently: XX%)          │
+│ ⬜ Memory:     <500B heap (currently: XXXX)   │
+│ ⬜ Latency:    <100μs (currently: XXXμs)      │
+└────────────────────────────────────────────────┘
+
+┌────────────────────────────────────────────────┐
+│           QUALITATIVE TARGETS                   │
+├────────────────────────────────────────────────┤
+│ ⬜ Visual Quality: [Specific criteria]         │
+│ ⬜ Code Modularity: [Reusability metric]      │
+│ ⬜ Innovation Value: [Unique capability]       │
+└────────────────────────────────────────────────┘
+```
+
+### 5. Technical Implementation Plan
+```markdown
+## 🛠️ Implementation Architecture
+
+### Core Algorithm
+\`\`\`cpp
+// File: src/effects/matrix/[EffectName].h
+class Matrix[EffectName] : public EffectBase {
+    // Memory budget: XXX bytes
+    static constexpr size_t MAX_SOURCES = 4;
+    
+    struct OptimizedData {
+        uint16_t param16;  // FastLED 16-bit space
+        uint8_t grid[9][9]; // 2D advantage
+    };
+    
+    void update() override {
+        // Core innovation algorithm
+    }
+};
+\`\`\`
+
+### Integration Points
+- **Effect Registry**: Line XXX in `EffectRegistry.h`
+- **Encoder Mapping**: Encoders X,Y,Z for parameters
+- **Transition Engine**: Compatible with all 6 transition types
+```
+
+### 6. Development Timeline
+```markdown
+## 📅 Surgical Execution Plan
+
+### Day 0: Foundation (4 hours)
+- [ ] Code archaeology - analyze heritage code
+- [ ] Performance baseline - measure current state
+- [ ] Memory profiling - identify optimization targets
+- [ ] Risk assessment - validate feasibility
+
+### Day 1-2: Core Development (16 hours)
+- [ ] Implement base algorithm
+- [ ] Apply FastLED optimizations
+- [ ] Create test harness
+- [ ] Initial benchmarking
+
+### Day 3: Optimization Sprint (8 hours)
+- [ ] Profile hot paths
+- [ ] Eliminate heap allocations
+- [ ] Apply SIMD where applicable
+- [ ] Squeeze out final 10% performance
+
+### Day 4: Integration & Polish (8 hours)
+- [ ] Effect system integration
+- [ ] Encoder mappings
+- [ ] Transition compatibility
+- [ ] Documentation
+
+### Day 5: Validation (4 hours)
+- [ ] Performance validation
+- [ ] Visual quality assessment
+- [ ] Cross-pollination documentation
+- [ ] Portfolio submission
+```
+
+### 7. Risk Mitigation Matrix
+```markdown
+## 🚨 Risk Analysis & Mitigation
+
+| Risk | Impact | Probability | Detection Method | Mitigation Strategy | Fallback |
+|------|--------|-------------|------------------|---------------------|----------|
+| [Risk] | 🔴/🟡/🟢 | High/Med/Low | [How detected] | [Primary strategy] | [Plan B] |
+
+### Pre-Flight Checklist
+- [ ] ESP32-S3 specific optimizations identified
+- [ ] Memory allocation strategy validated
+- [ ] Performance profiling tools ready
+- [ ] Visual validation criteria defined
+```
+
+### 8. Validation Protocol
+```markdown
+## 🧪 Validation & Testing
+
+### Performance Tests
+\`\`\`bash
+# Test 1: Baseline Performance
+PROFILE=1 pio run -t upload && pio device monitor
+# Target: >120 FPS sustained for 60 seconds
+
+# Test 2: Memory Stability
+HEAP_TRACE=1 ITERATIONS=1000 pio test -e native
+# Target: 0 bytes heap growth
+
+# Test 3: CPU Usage
+CORE_DEBUG_LEVEL=5 pio run -t upload
+# Target: <15% on Core 1
+\`\`\`
+
+### Visual Quality Checklist
+- [ ] No flicker or tearing
+- [ ] Smooth parameter transitions
+- [ ] Edge case handling correct
+- [ ] Color accuracy maintained
+```
+
+### 9. Cross-Pollination Strategy
+```markdown
+## 🔄 Knowledge Transfer
+
+### What Matrix Teaches Strips
+- [Specific 2D insight that could inspire 1D patterns]
+- [Mathematical approach unique to grid layout]
+- [Performance technique from spatial awareness]
+
+### Future Evolution Path
+1. **Next Innovation**: [What this enables]
+2. **Combination Potential**: [How this combines with other effects]
+3. **Platform Extension**: [Could this work on larger grids?]
+```
+
+### 10. Code Integration Guide
+```markdown
+## 🔧 Step-by-Step Integration
+
+### Step 1: Add Effect Class
+\`\`\`cpp
+// src/effects/matrix/[EffectName].h
+\`\`\`
+
+### Step 2: Register Effect
+\`\`\`cpp
+// src/effects/EffectRegistry.cpp:XXX
+registry.registerEffect<Matrix[EffectName]>();
+\`\`\`
+
+### Step 3: Configure Encoders
+\`\`\`cpp
+// src/control/EncoderMappings.cpp:XXX
+mapEncoder(4, &Matrix[EffectName]::setParam1);
+\`\`\`
+
+### Step 4: Update Documentation
+- [ ] Add to effects list in README.md
+- [ ] Create demo video/GIF
+- [ ] Update performance benchmarks
+```
+
+## 📝 Quick Template
+
+```markdown
+# HYPOTHESIS: [Your Innovation Title]
+
+---
+title: "[Title]"
+status: "🟢 PLANNED"
+priority: "🔴 CRITICAL"
+effort: "5 DAYS"
+author: "@your-handle"
+created: "2024-01-XX"
+---
+
+┌─────────────────────────────────────────────────────────────────┐
+│                     INNOVATION SUMMARY                           │
+├─────────────────────────────────────────────────────────────────┤
+│ Title:     [Name]                                               │
+│ Category:  [Type]                                               │
+│ Impact:    [Level]                                              │
+│ Risk:      [Level]                                              │
+│ Timeline:  [Duration]                                           │
+└─────────────────────────────────────────────────────────────────┘
+
+[Continue with all sections...]
+```
+
+## 🚀 Usage Examples
+
+```bash
+# Create hypothesis for 2D physics innovation
+ai create-hypothesis "2D Wave Interference Engine" --category="2D Physics" --priority="CRITICAL"
+
+# Create performance optimization hypothesis  
+ai create-hypothesis "Matrix sin16() Optimization" --category="Performance" --effort="2 DAYS"
+
+# Create cross-pollination hypothesis
+ai create-hypothesis "Strip Wave Engine to Matrix Adaptation" --category="Cross-Pollination"
+```
+
+---
+
+**Remember**: Every hypothesis must be **actionable**, **measurable**, and leverage the unique advantages of 2D space while incorporating hard-won optimizations from strips evolution!
